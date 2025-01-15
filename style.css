@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+body{
+    max-width: fit-content;
+    font-size: 100%;
+    list-style-type: none;
+    margin: 0 auto;
+}
+
+#menu-list{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+#menu-list li{
+    margin: 0 10px 10px;
+}
+
+footer{
+    margin: 10px auto;
+    text-align: center;
+}
+
+h1{
+    text-transform: uppercase;
+}
+
+h2{
+    font-size: 18px;
+}
+
+h3{
+    font-size: 16px;
+}
+
+h1, h2, h3, p, form{
+    margin-bottom: 10px;
+    text-align: center;
+    max-width: 1000px;
+}
+
+picture{
+    display: flex;
+    justify-content: center;
+}
+
+.cadastro{
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr 1fr;
+    gap: 10px;
+}
+
+label{
+    grid-column: 2/3;
+    text-align: right;
+    align-self: center;
+}
+
+#botao{
+    grid-column: 3/4;
+    align-self: center;
+    width: 50px;
+}

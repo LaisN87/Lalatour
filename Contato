@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="src/style/style.css">
+  <title>Vantagens</title>
+</head>
+
+<body>
+  <header>
+    <picture id="banner">
+      <img src="src\img\cabecalho.png" alt="banner">
+    </picture>
+    <nav id="menu">
+      <ul id="menu-list">
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="modalidades.html">MODALIDADES</a></li>
+        <li><a href="fretamento.html">FRETAMENTO</a></li>
+        <li><a href="vantagens.html">VANTAGENS</a></li>
+        <li><a href="contato.html">CONTATO</a></li>
+      </ul>
+    </nav>
+    <div>
+      <img src="src/img/barra1.png" alt="barra">
+    </div>
+  </header>
+  <main>
+    <section id="atendimento">
+      <h1>atendimento</h1>
+      <p>Entre em contato com a gente, preenchendo o formulario abaixo. Teremos o maior prazer em atender ao seu contato.</p>
+      <form>
+        <div class="pessoa">
+        <input type="radio" name="pessoa">
+        <label>Pessoa Física</label>
+        <input type="radio" name="pessoa">
+        <label>Pessoa Juridica</label><br>
+        </div>
+        <div class="cadastro">
+        <label>CPF:</label>
+        <input type="text" name="cpf" id="cpf" required><br>
+        <label>Nome:</label>
+        <input type="text" name="nome" id="nome" required><br>
+        <label>E-mail:</label>
+        <input type="email" name="email" id="email" required><br>
+        <label>Fone:</label>
+        <input type="tel" name="tel" id="tel" required><br>
+        <label>Cidade:</label>
+        <input type="city" name="cidade" id="cidade" required><br>
+        <label>Assunto:</label>
+        <select name="assunto">
+          <option value="" selected disabled>Selecione</option>
+          <option value="talvez">Sei la</option>
+          <option value="sim">Sobre aquela coisa</option>
+        </select>
+        <br>
+        <label>Mensagem:</label>
+        <textarea name="mensagem" cols="30" rows="10"></textarea>
+        <button id="botao" type="submit">Enviar</button>  
+        </div>
+      </form>
+    </section>
+    <hr>
+  </main>
+  <footer>
+    VAIDEBUS - Todos os direitos reservados. Rua Ipiranga, 123 | Sapiranga/RS | Fone: (051) 3670-0010
+  </footer>
+</body>
+
+</html>

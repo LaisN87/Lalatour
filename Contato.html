@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="src/style/style.css">
+  <title>Contato</title>
+  <style>
+    .social-icons {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+    }
+    .social-icons a {
+      margin: 0 10px;
+    }
+    .social-icons img {
+      width: 30px;
+      height: 30px;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <picture id="banner">
+      <img src="src/img/cabecalho.png" alt="banner">
+    </picture>
+    <nav id="menu">
+      <ul id="menu-list">
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="modalidades.html">MODALIDADES</a></li>
+        <li><a href="fretamento.html">FRETAMENTO</a></li>
+        <li><a href="destino.html">DESTINO</a></li>
+        <li><a href="vantagens.html">VANTAGENS</a></li>
+        <li><a href="contato.html">CONTATO</a></li>
+      </ul>
+    </nav>
+    <div>
+      <img src="src/img/barra1.png" alt="barra">
+    </div>
+  </header>
+  <main>
+    <section id="atendimento">
+      <h1>Atendimento</h1>
+      <p>Entre em contato com a gente, preenchendo o formulário abaixo. Teremos o maior prazer em atender ao seu contato.</p>
+      <form>
+        <div class="pessoa">
+          <input type="radio" name="pessoa" id="fisica">
+          <label for="fisica">Pessoa Física</label>
+          <input type="radio" name="pessoa" id="juridica">
+          <label for="juridica">Pessoa Jurídica</label><br>
+        </div>
+        <div class="cadastro">
+          <label for="cpf">CPF:</label>
+          <input type="text" name="cpf" id="cpf" required><br>
+          <label for="nome">Nome:</label>
+          <input type="text" name="nome" id="nome" required><br>
+          <label for="email">E-mail:</label>
+          <input type="email" name="email" id="email" required><br>
+          <label for="tel">Fone:</label>
+          <input type="tel" name="tel" id="tel" required><br>
+          <label for="cidade">Cidade:</label>
+          <input type="text" name="cidade" id="cidade" required><br>
+          <label for="assunto">Assunto:</label>
+          <select name="assunto" id="assunto">
+            <option value="" selected disabled>Selecione</option>
+            <option value="talvez">Sei lá</option>
+            <option value="sim">Sobre aquela coisa</option>
+          </select>
+          <br>
+          <label for="mensagem">Mensagem:</label>
+          <textarea name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
+          <button id="botao" type="submit">Enviar</button>  
+        </div>
+      </form>
+    </section>
+    <hr>
+  </main>
+  <footer>
+    <div class="social-icons">
+      <a href="https://www.facebook.com" target="_blank">
+        <img src="src/img/facebook.png" alt="Facebook">
+      </a>
+      <a href="https://www.twitter.com" target="_blank">
+        <img src="src/img/twitter.png" alt="Twitter">
+      </a>
+      <a href="https://www.instagram.com" target="_blank">
+        <img src="src/img/instagram.png" alt="Instagram">
+      </a>
+      <a href="https://www.linkedin.com" target="_blank">
+        <img src="src/img/linkedin.png" alt="LinkedIn">
+      </a>
+    </div>
+    <p>LalaTour - Todos os direitos reservados. Rua Revolução, 333 | São Paulo/SP | Fone: (011) 3579-1357</p>
+  </footer>
+</body>
+
+</html>

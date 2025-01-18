@@ -20,6 +20,12 @@ body{
     margin: 0 10px 10px;
 }
 
+header{
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    height: auto;
+
 footer{
     margin: 10px auto;
     text-align: center;

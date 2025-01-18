@@ -1,67 +1,84 @@
-*{
+* {
     margin: 0;
     padding: 0;
     text-decoration: none;
+    box-sizing: border-box;
 }
-body{
-    max-width: fit-content;
+
+body {
+    max-width: 100%;
     font-size: 100%;
     list-style-type: none;
     margin: 0 auto;
+    padding: 20px;
 }
 
-#menu-list{
+#menu-list {
     display: flex;
     list-style: none;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
-#menu-list li{
+#menu-list li {
     margin: 0 10px 10px;
 }
 
-footer{
+footer {
     margin: 10px auto;
     text-align: center;
 }
 
-h1{
+h1 {
     text-transform: uppercase;
 }
 
-h2{
+h2 {
     font-size: 18px;
 }
 
-h3{
+h3 {
     font-size: 16px;
 }
 
-h1, h2, h3, p, form{
+h1, h2, h3, p, form {
     margin-bottom: 10px;
     text-align: center;
-    max-width: 1000px;
+    max-width: 100%;
 }
 
-picture{
+picture {
     display: flex;
     justify-content: center;
 }
 
-.cadastro{
+.cadastro {
     display: grid;
-    grid-template-columns: 1fr 1fr 2fr 1fr;
+    grid-template-columns: 1fr;
     gap: 10px;
 }
 
-label{
-    grid-column: 2/3;
+label {
     text-align: right;
     align-self: center;
 }
 
-#botao{
-    grid-column: 3/4;
+#botao {
     align-self: center;
-    width: 50px;
+    width: 100%;
+}
+
+@media (min-width: 600px) {
+    .cadastro {
+        grid-template-columns: 1fr 1fr 2fr 1fr;
+    }
+
+    label {
+        grid-column: 2/3;
+    }
+
+    #botao {
+        grid-column: 3/4;
+        width: auto;
+    }
 }

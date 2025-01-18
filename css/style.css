@@ -15,7 +15,7 @@ header {
 }
 
 #banner img {
-  width: 100%;
+  width: 50%;
   height: auto;
 }
 
@@ -52,7 +52,7 @@ main {
 }
 
 main picture img {
-  width: 100%;
+  width: 50%;
   height: auto;
 }
 

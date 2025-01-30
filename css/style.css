@@ -15,8 +15,8 @@ header {
 }
 
 #banner img {
-  width: auto;
-  height: auto;
+  width: 10px;
+  height: 10px;
 }
 
 nav#menu {
@@ -53,7 +53,7 @@ main {
 
 main picture img {
   width: 10px;
-  height: auto;
+  height: 10px;
 }
 
 footer {

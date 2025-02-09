@@ -15,8 +15,8 @@ header {
 }
 
 #banner img {
-  width: auto;
-  height: auto;
+  width: 30px;
+  height: 20px;
 }
 
 nav#menu {
@@ -52,8 +52,8 @@ main {
 }
 
 main picture img {
-  width: auto;
-  height:auto;
+  width: 30px;
+  height:20px;
 }
 
 footer {
@@ -62,7 +62,7 @@ footer {
   text-align: center;
   padding: 10px 0;
   position: fixed;
-  width: 100%;
+  width: 50%;
   bottom: 0;
 }
 

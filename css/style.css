@@ -8,8 +8,8 @@ body {
 }
 
 header {
-  background-color: #333;
-  color: #fff;
+  background-color: #808080;
+  color: #0000ff;
   padding: 10px 0;
   text-align: center;
 }
@@ -20,7 +20,7 @@ header {
 }
 
 nav#menu {
-  background-color: #444;
+  background-color: #fff5ee;
 }
 
 nav#menu ul {
@@ -36,14 +36,14 @@ nav#menu ul li {
 }
 
 nav#menu ul li a {
-  color: #fff;
+  color: #0000ff;
   text-decoration: none;
   padding: 10px 20px;
   display: block;
 }
 
 nav#menu ul li a:hover {
-  background-color: #555;
+  background-color: #fff5ee;
 }
 
 main {
@@ -57,12 +57,12 @@ main picture img {
 }
 
 footer {
-  background-color: #333;
-  color: #fff;
+  background-color: #808080;
+  color: #0000ff;
   text-align: center;
-  padding: 10px 0;
+  padding: auto;
   position: fixed;
-  width: 50%;
+  width: auto;
   bottom: 0;
 }
 

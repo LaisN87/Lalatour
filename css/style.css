@@ -10,13 +10,13 @@ body {
 header {
   background-color: #808080;
   color: #0000ff;
-  padding: 10px 0;
+  padding: 20px 0;
   text-align: center;
 }
 
 #banner img {
-  width: 30px;
-  height: 20px;
+  width: auto;
+  height: auto;
 }
 
 nav#menu {
@@ -32,13 +32,13 @@ nav#menu ul {
 }
 
 nav#menu ul li {
-  margin: 0 15px;
+  margin: auto;
 }
 
 nav#menu ul li a {
   color: #0000ff;
   text-decoration: none;
-  padding: 10px 20px;
+  padding: 20px 40px;
   display: block;
 }
 
@@ -47,13 +47,13 @@ nav#menu ul li a:hover {
 }
 
 main {
-  padding: 20px;
+  padding: 50px;
   text-align: center;
 }
 
 main picture img {
-  width: 30px;
-  height:20px;
+  width: auto;
+  height: auto;
 }
 
 footer {
@@ -61,7 +61,7 @@ footer {
   color: #0000ff;
   text-align: center;
   padding: auto;
-  position: fixed;
+  position: fluid;
   width: auto;
   bottom: 0;
 }
